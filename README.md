@@ -15,7 +15,7 @@ The following configuration example is the file `settings.json` and you will hav
 
 Bot configuration
 - `wsDomain`, the domain where the websocket points to. (Must be same than in Freeroam server config.)
-- `wsPort`, the port of the websocket. (Must be same than in Freeroam server config.)
+- `wsOutPort`, the output port of the websocket. (Must be same than in Freeroam server config.)
 - `privkeyPath`, the path to your certified domain private key.
 - `pubkeyPath`, the path to your certified domain public key.
 

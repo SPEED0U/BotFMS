@@ -52,7 +52,7 @@ var server = ws.createServer(options, function (conn) {
     conn.on("error", function (e) {
         
     })
-}).listen(6996);
+}).listen(settings.wsOutPort);
 
 function broadcast(server, msg) {
 	server.connections.forEach(function (conn) {

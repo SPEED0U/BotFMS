@@ -1,6 +1,7 @@
 {
     "wsDomain": "map.example.com",
     "wsPort": 6997,
+    "wsOutPort": 6996,
     "privkeyPath": "/etc/letsencrypt/live/yourdomain/privkey.pem",
     "pubkeyPath": "/etc/letsencrypt/live/yourdomain/fullchain.pem"
 }
